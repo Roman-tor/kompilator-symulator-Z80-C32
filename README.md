@@ -4,6 +4,8 @@ Zaletą tego kompilatora jest to, że można przed kompilacją wczytać plik HEX
 tylko bajty wg pliku ASM, nie naruszając pliku HEX chyba, że adresy po kompilacji sa "wewnątrz" pliku HEX. Daję to możliwośc 
 dodawania pliku HEX do istniejącego. Np. mamy oryginał pliku HEX "MONITORA" CA80 /od 0h do 1FFFh/, piszemy jakiś plik ASM 
 od 2000h, kompilujemy i mamy wynikowy plik HEX z naszym programem z pliku ASM. Musimy tylko teraz go zapamiętać /czwarta ikonka/.
+Drugą ważną zaletą jest symulacja pracy naszego programu: krok po kroku, można przeskoczyć procedurę, np. CALL XY lub wykonać 
+podprocedurę - tylko do RET. Widoczne są też wszystkie rejestry procesora, można też odcztać czas wykonywania symulacji! 
 
 BŁędy podczas kompilacji możemy "znaleźc" np. edytując plik LST w notatniku - odczytać adres z literką V /np. VC000/, zapamiętać
 nr wiersza i odnaleźć ten nr wiersza w edytownym aktualnie pliku ASM kompilatora. Nie ma możliwości sprawdzenia prawidłowosci
