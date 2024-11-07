@@ -2,7 +2,8 @@ kompilator procesora Z80, wraz z symulatorem Z80. W pliku <programy> jest plik n
 kompilator symulator - autorzy: Marat Fayzullin i  mgr inż. J. Rydzewski (Politechika Białostocka)
 Kpmpilator działa pod systemem 32-bit owym , nie trzeba go instalować, wystarczy otworzyć plik hex. Jeśli masz np. WIN 64-bit, 
 można zaistalować wirtualną maszynę / ja mam Oracle VM Virtual Box/ i w tej maszynie zainstalować np. WIN XP 32-bit, może byc inny
-ale XP nie zajmuje tyle miejsca co np. 7 czy wyższy a XP w zupełności wystarczy do  tego kompilatora
+ale XP nie zajmuje tyle miejsca co np. 7 czy wyższy a XP w zupełności wystarczy do  tego kompilatora.
+
 Zaletą tego kompilatora jest to, że można przed kompilacją wczytać plik HEX i wykonać kompilacje pliku ASM. Kompilacja zmieni
 tylko bajty wg pliku ASM, nie naruszając pliku HEX chyba, że adresy po kompilacji sa "wewnątrz" pliku HEX. Daję to możliwośc 
 dodawania pliku HEX do istniejącego. Np. mamy oryginał pliku HEX "MONITORA" CA80 /od 0h do 1FFFh/, piszemy jakiś plik ASM 
