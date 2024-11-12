@@ -19,3 +19,6 @@ nr wiersza i odnaleźć ten nr wiersza w edytownym aktualnie pliku ASM kompilato
 inny kompilator do procesora Z80 , w wersji  niemieckiej /Shareware/ 
 ASide można ściągnąć z
 http://www.theeg.de/aside/index.html - wersja niemiecka Shareware
+!("D:\administr\gith\ikona_github.gif")
+
+
